@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'figma_screen_five.dart';
-import 'figma_screen_four.dart';
 import 'figma_screen_one.dart';
 
 
