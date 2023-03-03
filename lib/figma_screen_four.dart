@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'common_widget/Container_common.dart';
-
 class FigmaScreenFour extends StatefulWidget {
   const FigmaScreenFour({super.key, required String title});
 
@@ -179,9 +177,7 @@ class _FigmaScreenFourState extends State<FigmaScreenFour> {
                   scrollDirection: Axis.vertical,
                   physics: const BouncingScrollPhysics(),
                   children: [
-                    Containercommon(
-                      text: "2023",
-                    ),
+
                     Container(
                       height: 164,
                       decoration: BoxDecoration(
