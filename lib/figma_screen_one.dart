@@ -77,17 +77,14 @@ class _FigmascreenoneState extends State<Figmascreenone> {
                           style: TextStyle(
                             fontSize: 30,
                             fontFamily: "Poppins",
-                            color: Color.fromARGB (255, 157, 157, 157),
+                            color: Color.fromARGB(255, 157, 157, 157),
                           ),
-
                         ),
-                        
                         Column(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             SizedBox(
-                              
                               height: 23,
                               width: 20,
                               child:
