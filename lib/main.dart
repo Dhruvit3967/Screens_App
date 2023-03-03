@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:screens_app/project_one_screen.dart';
 
 import 'figma_screen_five.dart';
 import 'figma_screen_four.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
     
         // primarySwatch: Colors.green,
       ),
-      home: const FigmaScreenFour(title: '',),
+      home: const ProjectOneScreen(title: '',),
     );
   }
 }
